@@ -22,8 +22,8 @@ import io.cucumber.java.Scenario;
 
 public class BaseTestStepDef {
 
-	public static String userName = System.getProperty("userName", "mohitjangra1");
-	public static String accessKey = System.getProperty("accessKey", "LN5FKp8Coeq36KJffq3q");
+	public static String userName = System.getProperty("userName", "browserStack_username");
+	public static String accessKey = System.getProperty("accessKey", "browserStack_accesskey");
 	public static String server = System.getProperty("server", "cloud");
 
 	public static AppiumDriver<WebElement> driver;
