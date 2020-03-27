@@ -1,0 +1,16 @@
+cloud:
+        device: Google Pixel 3
+        os_version: "9.0"
+        project: Web View Automation
+        build: My First Build
+        name: Android Test
+        automationName: appium
+        app: bs://830a23ff20b6269cce6f13caa33dd9e030c07a96
+
+local:
+        deviceName: 8AGY0KS8Z
+        platformName: Android
+        platformVersion: "10.0"
+        browserName: Chrome
+        automationName: UiAutomator2
+        noReset: true
